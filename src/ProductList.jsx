@@ -267,9 +267,9 @@ function ProductList({ onHomeClick }) {
         }));
       };
     
-      const calculateTotalQuantity = () => {
-        return CartItems ? CartItems.reduce((total, item) => total + item.quantity, 0) : 0;
-        };
+     // const calculateTotalQuantity = () => {
+       // return CartItems ? CartItems.reduce((total, item) => total + item.quantity, 0) : 0;
+        //};
 
     return (
         <div>
